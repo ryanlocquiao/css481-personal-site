@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Interests</title>
+</head>
+<body>
+    <header>
+        <h1>My Passions</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="interests.html">My Hobbies & Interests</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Car Enthusiast</h2>
+            <p>I am somewhat of a car enthusiast. While I appreciate many vehicles, I have a specific love for JDM legends.</p>
+
+            <figure>
+                <img src="./imgs/red_toyota_pandem_gr86.png" alt="A photo of a Toyota GR86" width="300">
+                <figcaption>I want to buy this car so bad... &#128557</figcaption>
+            </figure>
+
+            <h3>Top Tier Cars</h3>
+            <ul>
+                <li>
+                    <dfn><strong>Toyota GR86</strong></dfn> &ndash; A lightweight, front-engine, rear-wheel-drive sports car
+                    <ul>
+                        <li>The last affordable analog coupe</li>
+                        <li>Naturally aspirated boxer</li>
+                        <li>A proper manual option</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <dfn><strong>Mitsubishi Eclipse GSX</strong></dfn> &ndash; The ultimate iteration of the rally-bred CT9A chassis
+                    <ul>
+                        <li>Fast & Furious icon</li>
+                        <li>My dad's first ever car</li>
+                        <li>Street racing icon</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <dfn><strong>Subaru WRX Impreza STI (GC8)</strong></dfn> &ndash; The lightweight icon of 90s World Rally Championship dominance
+                    <ul>
+                        <li>Distinctive boxer rumble</li>
+                        <li>Pure, driver-focused rally heritage</li>
+                        <li>The blue and gold aesthetic</li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>Mange & Anime</h2>
+            <p>When I am not looking at cars, I am usually reading manga. My current favorite is <em>My Dress Up Darling</em>.</p>
+
+            <details>
+                <summary>Click to read a quote from the series</summary>
+                <blockquote>
+                    <p>"GOJO-KUN!?"</p>
+                    <footer>- <cite>Marin Kitagawa</cite></footer>
+                </blockquote>
+            </details>
+
+            <p>I also enjoy technical aspects of gaming. Sometimes I write code like this:</p>
+            <pre>
+                <code>
+                    // I have no idea what this function does
+                    auto function = [](int** ptr_ptr, size_t n) -> void* {
+                        for (size_t i = 0; i < n; ++i) {
+                            **ptr_ptr ^= (1 << (i % 8));
+                            *ptr_ptr = (*ptr_ptr) + (i & 1 ? -1 : 1);
+                        }
+                        return [=](void* internal) mutable {
+                            return (double)(**ptr_ptr) * 3.14159;
+                        };
+                    };
+                </code>
+            </pre>
+        </article>
+    </main>
+    <footer>
+        <p>Thanks for visiting!</p>
+    </footer>
+</body>
+</html>
