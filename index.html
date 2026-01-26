@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Ryan Locquiao">
     <meta name="description" content="A personal website about cars and travel">
+    <link rel="stylesheet" href="style.css">
     <title>Welcome to My Life</title>
 </head>
 <body>
@@ -20,7 +22,7 @@
     <hr>
 
     <main>
-        <section>
+        <section class="intro-card">
             <h2>About Me</h2>
             <p>
                 Welcome to my personal corner of the web. I am currently based in <mark>Lynnwood, Washington</mark>. However, I was born in <mark>San Diego, California</mark>. I enjoy sunny weather, but I am equally passionate about exploring the world.
@@ -33,42 +35,44 @@
             </address>
         </section>
 
-        <section>
+        <section class="travel-section">
             <h2>Travel Log</h2>
             <p>I have been fortunate enough to visit several amazing countries. Below is a log of my recent trips:</p>
 
-            <table border="1">
-                <caption>Travel History</caption>
-                <thead>
-                    <tr>
-                        <th>Country</th>
-                        <th>Region</th>
-                        <th>Year</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Japan</td>
-                        <td>East Asia</td>
-                        <td>2008</td>
-                    </tr>
-                    <tr>
-                        <td>South Korea</td>
-                        <td>East Asia</td>
-                        <td>2025</td>
-                    </tr>
-                    <tr>
-                        <td>Philippines</td>
-                        <td>Southeast Asia</td>
-                        <td>2025</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">More adventures coming soon!</td>
-                    </tr>
-                </tfoot>
-            </table>
+            <div class="table-container">
+                <table>
+                    <caption>Travel History</caption>
+                    <thead>
+                        <tr>
+                            <th>Country</th>
+                            <th>Region</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Japan</td>
+                            <td>East Asia</td>
+                            <td>2008</td>
+                        </tr>
+                        <tr>
+                            <td>South Korea</td>
+                            <td>East Asia</td>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <td>Philippines</td>
+                            <td>Southeast Asia</td>
+                            <td>2025</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">More adventures coming soon!</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
         </section>
 
         <aside>

@@ -1,0 +1,114 @@
+/* Global Variables */
+:root {
+    --primary-color: #2c3e50;
+}
+
+* {
+
+}
+
+body {
+
+}
+
+header {
+
+}
+
+header h1 {
+
+}
+
+nav ul {
+
+}
+
+nav a {
+
+}
+
+nav a:hover {
+
+}
+
+main {
+
+}
+
+h2, h3 {
+
+}
+
+p {
+
+}
+
+mark {
+
+}
+
+.table-container {
+
+}
+
+table {
+
+}
+
+th, td {
+
+}
+
+th {
+
+}
+
+tr:nth-child {
+
+}
+
+figure {
+
+}
+
+img {
+
+}
+
+figcaption {
+
+}
+
+pre {
+
+}
+
+details {
+
+}
+
+blockquote {
+
+}
+
+footer {
+
+}
+
+@media (max-width: 768px) {
+    header {
+
+    }
+
+    nav ul {
+
+    }
+
+    main {
+
+    }
+
+    aside {
+        
+    }
+}
