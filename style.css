@@ -43,6 +43,7 @@ header {
 header h1 {
     font-size: 1.5rem;
     letter-spacing: 1px;
+    margin-left: 0.5rem;
     text-transform: uppercase;
 }
 
@@ -50,6 +51,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    margin-right: 0.5rem;
 }
 
 nav a {
@@ -88,8 +90,25 @@ mark {
     border-radius: 4px;
 }
 
+.car-list {
+    padding-left: 20px;
+    margin-bottom: 1rem;
+}
+
+.car-list ul {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    list-style-type: circle;
+}
+
 .table-container {
     overflow-x: auto;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
 }
 
 table {
@@ -158,7 +177,7 @@ blockquote {
     font-style: italic;
 }
 
-footer {
+footer p {
     text-align: center;
     padding: 1.5rem;
     background-color: var(--primary-color);
